@@ -14,7 +14,7 @@ return {
 					"cssls",
 					"html",
 					"emmet_ls",
-					"tsserver",
+					"ts_ls",
 					"gopls",
                     "pyright",
                     "clangd",
