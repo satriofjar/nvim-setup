@@ -61,7 +61,7 @@ return {
 				end,
 			})
 			-- lsp javascript
-			lspconfig.tsserver.setup({
+			lspconfig.ts_ls.setup({
 				on_attach = function(client)
 					client.server_capabilities.documentFormattingProvider = true
 				end,
